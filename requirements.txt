@@ -1,4 +1,3 @@
 Flask
 Flask-Cors
-sketchify
-opencv-python-headless
+opencv-python
