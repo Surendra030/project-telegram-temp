@@ -8,6 +8,13 @@ CORS(app)
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+@app.route('/')
+def home():
+    return jsonify({"message": "Backend server is running successfully"}), 200
+
+
+
+
 @app.route("/process", methods=["POST"])
 def process_image():
     if "image" not in request.files:
