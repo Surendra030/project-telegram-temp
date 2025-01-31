@@ -20,4 +20,3 @@ def fetch_sketch(inpu_img_path,output_img_path):
         return True 
 
 
-fetch_sketch(r"C:\Users\ej818\Downloads\img.png",'o.png')
