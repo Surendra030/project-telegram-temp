@@ -7,7 +7,7 @@ def dreamsketch(path):
     gray_img = cv2.cvtColor(original_img, cv2.COLOR_BGR2GRAY)
     gray_inverse = 255 - gray_img
     blurred_img = cv2.GaussianBlur(gray_inverse, (21, 21), sigmaX=100, sigmaY=100)
-    output = cv2.divide(gray_img, blurred_img, scale=256.0)
+    output = cv2.divide(gray_img, blurred_img, scale=230.0)
     return output
 
 
