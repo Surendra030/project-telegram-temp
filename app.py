@@ -15,7 +15,7 @@ def get_mega_link(serial_num):
         if serial == serial_num:
             return obj
     
-    return "https://mega.nz/example-pdf-link.pdf"
+    return None
 
 
 @app.route('/')

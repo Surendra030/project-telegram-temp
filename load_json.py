@@ -10,4 +10,4 @@ def get_json_data():
             "url_data" : url_data
         })
     
-    return json_data
+    return json_data[0]
