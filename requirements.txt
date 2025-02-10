@@ -1,2 +1,4 @@
-Flask
-Flask-Cors
+python-telegram-bot
+requests
+pymongo
+cryptography
